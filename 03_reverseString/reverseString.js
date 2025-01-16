@@ -5,6 +5,7 @@ const reverseString = function(word) {
         reverse += letters.pop();
     }
     return reverse;
+    // Alternately, split("").reverse().join() just streamlines this.
 };
 
 // Do not edit below this line
